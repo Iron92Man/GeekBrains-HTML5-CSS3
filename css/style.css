@@ -360,5 +360,236 @@ summary {
     font-weight: 400;
     color: #989898;
     font-style: normal;
+}
 
+.buy {
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+/*.buy:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}*/
+
+.buy-heading {
+    margin: 0 0 30px 0;
+    font-family: ArialMT;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.buy-box {
+    width: 300px;
+    margin: 0 45px 0 0;
+    padding: 16px 0 20px 0;
+    box-sizing: border-box;
+    background-color: #445161;
+    color: #fff;
+    font-family: ArialMT;
+    border-radius: 5px;
+}
+
+.buy-box-standart {
+    margin-left: 140px;
+}
+
+.buy-box-offer {
+    text-align: center;
+    margin-bottom: 17px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.buy-box-price {
+    width: 98%;
+    background-color: #fff;
+    text-align: center;
+    padding: 18px 0;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445162;
+}
+
+.buy-box-list {
+    margin: 20px auto;
+}
+
+.buy-box-items {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.buy-button {
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #445161;
+}
+
+.buy-button:hover {
+    background-color: #ddd;
+}
+
+.buy-button:active {
+    background-color: #ccc;
+    color: royalblue;
+}
+
+.contacts {
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #445162;
+}
+
+.contacts-heading {
+    margin: 0 0 30px 0;
+    font-family: ArialMT;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.contacts-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin: 0 50px 0 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+button {
+    display: block;
+    width: 500px;
+    background-color: #fff;
+    margin: 0 0 21px 0;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    font-family: ArialMT;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+    padding: 0 0 0 10px;
+}
+
+textarea {
+    resize: none;
+    height: 170px;
+}
+
+textarea::placeholder {
+    padding-top: 13px;
+}
+
+
+button {
+    width: 140px;
+    height: 40px;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-left: 200px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+button:active {
+    background-color: #ccc;
+    color: royalblue;
+}
+
+.contacts-info {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 240px;
+}
+
+.contacts-one-icons {
+    display: block;
+    text-decoration: none;
+    font-family: ArialMT;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 0 18px 0;
+}
+
+.contacts-one-icons:hover{
+    color: royalblue;
+}
+
+.icons-themselves {
+    margin: 0 5px 0 0;
+    width: 26px;
+    height: 26px;
+    float: left;
+}
+
+.fa {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 42px;
+    height: 39px;
+    color: #445162;
+    line-height: 42px;
+    text-align: center;
+    margin: 16px 2px 0 0;
+    padding: 3px 0 0 0;
+}
+
+.fa:hover{
+    color: #fff;
+    background-color: royalblue;
+}
+
+.fa:active,
+.contacts-one-icons:active{
+    background-color: #ccc;
+    color: royalblue;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    color: #445162;
 }
