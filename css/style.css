@@ -416,6 +416,7 @@ summary {
 }
 
 .buy-box-price {
+    display: block;
     width: 98%;
     background-color: #fff;
     text-align: center;
@@ -491,7 +492,7 @@ form {
 input[type="text"],
 input[type="email"],
 textarea,
-button {
+input[type="submit"] {
     display: block;
     width: 500px;
     background-color: #fff;
@@ -517,7 +518,7 @@ textarea::placeholder {
 }
 
 
-button {
+input[type="submit"] {
     width: 140px;
     height: 40px;
     padding: 0;
@@ -528,11 +529,11 @@ button {
     margin-left: 200px;
 }
 
-button:hover {
+input[type="submit"]:hover {
     background-color: #ddd;
 }
 
-button:active {
+input[type="submit"]:active {
     background-color: #ccc;
     color: royalblue;
 }
@@ -552,6 +553,30 @@ button:active {
     font-weight: 400;
     color: #fff;
     margin: 0 0 18px 0;
+}
+
+.contacts-txt{
+    margin: 0 0 0 30px;
+}
+
+.skype{
+    background-image: url(../img/skype.png);
+    background-repeat: no-repeat;
+}
+
+.icq{
+    background-image: url(../img/icq.png);
+    background-repeat: no-repeat;
+}
+
+.dog{
+    background-image: url(../img/dog.png);
+    background-repeat: no-repeat;
+}
+
+.phone{
+    background-image: url(../img/phone.png);
+    background-repeat: no-repeat;
 }
 
 .contacts-one-icons:hover{
