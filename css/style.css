@@ -508,6 +508,12 @@ input[type="submit"] {
     padding: 0 0 0 10px;
 }
 
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+}
+
 textarea {
     resize: none;
     height: 170px;
